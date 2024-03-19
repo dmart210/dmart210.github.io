@@ -4740,3 +4740,93 @@ td:last-child {
 .contact-list li {
 	padding-left: 0;
 }
+
+
+
+.sliders{
+	padding: 2%;
+}
+
+.grid-container{
+	display: grid;
+}
+
+#block{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+.s-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.s-projects__content {
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px; /* Set maximum width if desired */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latest-work {
+    padding: var(--vspace-6) 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: var(--vspace-2);
+}
+
+.section-title {
+    font-size: clamp(4rem, 10vw, 10.4rem);
+    margin-bottom: var(--vspace-0_5);
+}
+
+.work-items {
+    display: flex;
+    justify-content: center;
+	padding-left: 5px;
+	padding-right: 5px;
+    gap: var(--vspace-2);
+}
+
+.work-item {
+    background-color: var(--color-2-dark);
+    color: var(--color-3);
+    padding: var(--vspace-2);
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.work-title {
+    font-size: 2rem;
+    margin-bottom: var(--vspace-0_5);
+	background-color: white;
+}
+
+.work-description {
+    margin-bottom: var(--vspace-1);
+}
+
+.github-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-1);
+    color: var(--color-2-dark);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: var(--color-1-dark);
+}
+
+.work-image {
+    max-width: 100%;
+    margin-bottom: var(--vspace-1);
+}
